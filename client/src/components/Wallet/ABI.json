@@ -1,0 +1,422 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_decription",
+				"type": "string"
+			}
+		],
+		"name": "changeDecription",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint8",
+				"name": "id",
+				"type": "uint8"
+			},
+			{
+				"internalType": "uint256",
+				"name": "date",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "degree",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "knowledgeAcquired",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "institutionName",
+				"type": "string"
+			}
+		],
+		"name": "changeEducation",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "link",
+				"type": "string"
+			}
+		],
+		"name": "changeImageLink",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint8",
+				"name": "id",
+				"type": "uint8"
+			},
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_decription",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "image",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "githubLink",
+				"type": "string"
+			}
+		],
+		"name": "changeProjects",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "resume",
+				"type": "string"
+			}
+		],
+		"name": "changeResumeLink",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "donate",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "date",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "degree",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "knowledgeAcquired",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "institutionName",
+				"type": "string"
+			}
+		],
+		"name": "insertEducation",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_decription",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "image",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "githubLink",
+				"type": "string"
+			}
+		],
+		"name": "InsertProjects",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [],
+		"name": "withdraw",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"stateMutability": "payable",
+		"type": "receive"
+	},
+	{
+		"inputs": [],
+		"name": "allEducationDetails",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint8",
+						"name": "id",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "degree",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "knowledgeAcquired",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "institutionName",
+						"type": "string"
+					}
+				],
+				"internalType": "struct D_Portfolio.educations[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "decription",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "educationCount",
+		"outputs": [
+			{
+				"internalType": "uint8",
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "Educations",
+		"outputs": [
+			{
+				"internalType": "uint8",
+				"name": "id",
+				"type": "uint8"
+			},
+			{
+				"internalType": "uint256",
+				"name": "date",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "degree",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "knowledgeAcquired",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "institutionName",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getAllProjects",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint8",
+						"name": "id",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "decription",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "image",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "githubLink",
+						"type": "string"
+					}
+				],
+				"internalType": "struct D_Portfolio.projects[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "imageLink",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "manager",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "Projects",
+		"outputs": [
+			{
+				"internalType": "uint8",
+				"name": "id",
+				"type": "uint8"
+			},
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "decription",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "image",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "githubLink",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "projectsCount",
+		"outputs": [
+			{
+				"internalType": "uint8",
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "resumeLink",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
